@@ -1,0 +1,6 @@
+$ dgmgrl
+DGMGRL> connect /
+Connected to "hurtprod_pri"
+Connected as SYSDG.
+DGMGRL> 
+DGMGRL> show configuration;

@@ -1,0 +1,5 @@
+1. masuk user grid
+2. jalankan command
+crsctl stat res -t
+
+cek
