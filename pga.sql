@@ -1,0 +1,1 @@
+select inst_id, sum(pga_alloc_mem)/1024/1024 pga_alloc_mem_mb, sum(pga_used_mem)/1024/1024 pga_used_mem_mb, sum(pga_freeable_mem)/1024/1024 pga_freeable_mem_mb, sum(pga_max_mem)/1024/1024 pga_max_mem_mb from gv$process group by inst_id;
